@@ -1,13 +1,23 @@
 const std = @import("std");
 const stdout = std.io.getStdOut().writer();
- 
+const ArrayList = std.ArrayList;
+
 pub fn main() !void {
     try sieve(10000000);
 }
  
-fn sieve(comptime limit: usize) !void {
-    // Initalize prime table. Uses compile time limit to avoid allocating
-    var primes = [_]bool{true} ** limit;
+fn sieve(limit: usize) !void {
+    const allocator = std.heap.page_allocator; // Should be good enough
+    var list = ArrayList(bool).init(allocator);
+    defer list.deinit();
+    try list.resize(limit);
+    var primes = list.items;
+    // Fill with ones
+    var i: usize = 0;
+    while (i < limit) : (i += 1) {
+        primes[i] = true;
+    }
+
     // Start at 2 so initalizing 0 and 1 to false can be skiped
     var prime: usize = 2;
     // For all numbers...
