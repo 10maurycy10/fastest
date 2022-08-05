@@ -13,7 +13,7 @@ I have chosen to use the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/S
 
 ```python
 prime_max = 10000000
-# Initalize the working array
+# Initialize the working array
 array = [True for i in range(prime_max)]
 # Set 0 and 1 to not prime
 array[0] = False
@@ -32,6 +32,7 @@ for prime in range(prime_max):
 - JavaScript (Node)
 - Python
 - C (-O0 and -O1)
+- Zig
 
 ## Running 
 
