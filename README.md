@@ -33,6 +33,8 @@ for prime in range(prime_max):
 - Python
 - C (-O0 and -O1)
 - Zig
+- Rust
+- Java
 
 ## Running 
 
