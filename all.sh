@@ -6,6 +6,8 @@ run() {
 }
 
 run "javascript"
+run "java"
 run "python"
 run "zig"
+run "rust"
 run "c"

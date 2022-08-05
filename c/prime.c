@@ -17,7 +17,7 @@ int main() {
 		// If the number is a prime
 		if (array[n]) {
 			// Print it.
-			printf("%d\n", n);
+			printf("%d ", n);
 			// Mark multiples as not prime
 			for (int i = n; i < PRIME_MAX; i += n) {
 				array[i] = 0;
