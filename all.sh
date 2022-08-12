@@ -5,9 +5,10 @@ run() {
 	popd > /dev/null
 }
 
+run "asm"
 run "javascript"
 run "java"
 run "python"
 run "zig"
-run "rust"
 run "c"
+run "rust"
