@@ -1,0 +1,60 @@
+# ASM
+
+real	0m0.055s
+user	0m0.048s
+sys	0m0.007s
+# AWK
+
+real	0m5.621s
+user	0m5.583s
+sys	0m0.033s
+# JavaScript - Node
+real	0m1.359s
+user	0m1.350s
+sys	0m0.135s
+
+# Java
+real	0m0.339s
+user	0m0.381s
+sys	0m0.149s
+
+# Python 
+real	0m2.087s
+user	0m2.056s
+sys	0m0.030s
+
+# Zig - Debug
+real	0m0.349s
+user	0m0.229s
+sys	0m0.119s
+
+# Zig - ReleaseFast
+real	0m0.190s
+user	0m0.077s
+sys	0m0.113s
+
+# C - O0
+real	0m0.276s
+user	0m0.276s
+sys	0m0.000s
+
+# C - O2
+real	0m0.221s
+user	0m0.214s
+sys	0m0.007s
+
+# C - Os
+real	0m0.228s
+user	0m0.221s
+sys	0m0.007s
+
+# Rust - Debug
+real	0m1.001s
+user	0m0.933s
+sys	0m0.067s
+
+# Rust - Optimized
+real	0m0.136s
+user	0m0.084s
+sys	0m0.051s
+

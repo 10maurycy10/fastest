@@ -6,6 +6,7 @@ run() {
 }
 
 run "asm"
+run "awk"
 run "javascript"
 run "java"
 run "python"
