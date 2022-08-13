@@ -35,7 +35,9 @@ for prime in range(prime_max):
 - Zig
 - Rust
 - Java
+- ASM
+- AWK
 
 ## Running 
 
-run ``./run.sh`` in the root of the project.
+run ``./all.sh`` in the root of the project.
