@@ -7,7 +7,8 @@ pub fn main() !void {
 }
  
 fn sieve(limit: usize) !void {
-    const allocator = std.heap.page_allocator; // Should be good enough
+    var gpa = std.heap.GeneralPurposeAllocator(.{}){};
+    const allocator = gpa.allocator();
     var list = ArrayList(bool).init(allocator);
     defer list.deinit();
     try list.resize(limit);
