@@ -6,3 +6,6 @@ echo ""
 echo -n "# C - O2"
 time ./prime_o2 > /dev/null
 echo ""
+echo -n "# C - Os"
+time ./prime_os > /dev/null
+echo ""
