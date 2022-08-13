@@ -35,6 +35,7 @@ for prime in range(prime_max):
 - Zig
 - Rust
 - Java
+- GoLang
 
 ## Running 
 
