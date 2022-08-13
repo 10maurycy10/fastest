@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 javac SieveOfEratosthenes.java
 echo -n "# Java"
 time java SieveOfEratosthenes > /dev/null

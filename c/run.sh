@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ./compile.sh
 echo -n "# C - O0"
 time ./prime_o0 > /dev/null
