@@ -1,6 +1,10 @@
 c/prime_o0
 c/prime_o2
+c/prime_os
 zig/zig-cache
 zig/prime
+asm/prime
+asm/prime.o
 rust/prime
 java/SieveOfEratosthenes.class
+
