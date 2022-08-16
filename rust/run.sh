@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo -n "# Rust - Debug"
 rustc prime.rs 
 time ./prime > /dev/null

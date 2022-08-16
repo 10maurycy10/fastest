@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 zig build-exe prime.zig
 echo -n "# Zig - Debug"
 time ./prime > /dev/null
